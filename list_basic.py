@@ -1,4 +1,5 @@
 from collections import deque
+
 fruits = ['apple', 'grape', 'orange']
 print(fruits)
 shop_list = ['cherry', 8, 3, False, fruits]
