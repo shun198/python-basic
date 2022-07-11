@@ -3,6 +3,7 @@ class Person:
     num_legs = 2
     # __init__はクラスのコンストラクタ(クラスのインスタンスを作成する時に呼ばれる関数)
     # selfはクラスのインスタンスを指す
+
     def __init__(self, name, age, gender):
         self.name = name
         self.age = age
