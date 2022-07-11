@@ -1,6 +1,9 @@
 class Person:
+    # クラス変数。クラスのトップレベルで定義される。
+    num_legs = 2
     # __init__はクラスのコンストラクタ(クラスのインスタンスを作成する時に呼ばれる関数)
     # selfはクラスのインスタンスを指す
+
     def __init__(self, name, age, gender):
         self.name = name
         self.age = age
@@ -19,3 +22,5 @@ print(john.age)
 # インスタンスメソッド
 john.walk()
 kate.walk()
+# クラス変数
+print(john.num_legs)
