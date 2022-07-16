@@ -7,6 +7,7 @@ def power(exponent):
 
 power_four = power(4)
 print(power_four(2))
+print(power_four(3))
 
 
 def average():
