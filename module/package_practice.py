@@ -1,4 +1,4 @@
-import myfirstpackage.module1
+from myfirstpackage.subdir.module2 import myfunc
 
 
-myfirstpackage.module1.myfunc()
+myfunc()
