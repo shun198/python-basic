@@ -5,5 +5,7 @@ def myfunc():
     print("Hello from a function in mymodule.py")
 
 
-print("This is mymodule.py")
-print(f"mymodule.__name__: {__name__}")
+if __name__ == "__main__":
+    print("This is mymodule.py")
+else:
+    print("This is not mymodule.py")
