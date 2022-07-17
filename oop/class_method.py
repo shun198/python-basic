@@ -3,7 +3,7 @@ class MyClass(object):
     classmethod_count = 0
 
     def my_method(self):
-        print('This is my method')
+        print(f'This is my method. {self.__class__.__name__}')
 
     # staticmethodにはデコレータ
     @staticmethod
